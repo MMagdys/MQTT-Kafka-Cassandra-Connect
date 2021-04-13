@@ -19,8 +19,11 @@ node index.js -m localhost --mt mqtttopic -k 192.168.1.147:9092 --kc myapp --kt 
 
 ## CLI options
  --version             Show version number                        [boolean]
+ 
   -m, --mqtt-broker         MQTT broker IP address                      [string]
+  
       --mt, --mqtt-topic    MQTT topic                                  [string]
+      
   -k, --kafka-broker        Kafka broker IP address                     [string]
       --kt, --kafka-topic   Kafka topic                                 [string]
       --kc, --kafka-client  Kafka client ID                             [string]
