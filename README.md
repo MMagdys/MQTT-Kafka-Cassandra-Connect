@@ -39,3 +39,9 @@ node index.js -m localhost --mt mqtttopic -k 192.168.1.147:9092 --kc myapp --kt 
   -t, --topic               global topic that will be used in MQTT & Kafka
                                                                         [string]
   -h, --help                Show help                                  [boolean]
+
+
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/) 
+
